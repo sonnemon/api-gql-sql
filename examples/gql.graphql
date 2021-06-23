@@ -1,0 +1,20 @@
+query Request($productId: Float!){
+  Product(productId: $productId){
+    id
+    title
+    price
+    description
+    img_url
+  }
+}
+
+
+query{
+  Product(productId: 1){
+    id
+    title
+    price
+    description
+    img_url
+  }
+}
